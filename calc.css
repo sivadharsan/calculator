@@ -1,0 +1,25 @@
+
+.btn {
+  width: 20%;
+  height: 40px;
+  margin: 0 5px 5px 0;
+  line-height: 40px;
+  font-size: 20px;
+
+}
+
+.calcResultBox {
+  width: 45%;
+  height: 40px;
+  margin-bottom: 7px;
+}
+
+.calcBody {
+  background: #c1c1c1;
+  width: 18%;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #888888;
+  border-radius: 12px;
+  margin: 20px;
+  padding: 20px 20px 20px 35px;
+}
