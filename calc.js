@@ -31,14 +31,14 @@
                         scope.inMemory = parseInt(scope.memory, 10);
                     };
 
-                    scope.reset = function() {
+                    scope.clear = function() {
                         scope.operation = "";
                         scope.newNumber = true;
                         scope.inMemory = "0";
                     };
 
-                    scope.clear = function() {
-                        scope.inMemory = "0";
+                    scope.square = function() {
+                        scope.update('sq');
                     };
 
                     scope.subtraction = function() {
@@ -82,7 +82,11 @@
                         }
                         else if(scope.total && scope.operation == '/' ) {
                             scope.total = scope.total / scope.inMemory;
-                        }else {
+                        }
+                        else if(scope.total && scope.operation == 'sq' ) {
+                            scope.total = Math.sqrt(scope.inMemory);
+                        }
+                        else {
                             scope.total = scope.inMemory;
                         }
                     };
