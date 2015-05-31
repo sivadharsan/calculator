@@ -12,7 +12,8 @@
             return {
                 restrict    : 'E' ,
                 scope: {
-                    control: '='
+                    control: '=',
+                    theme: '@theme'
                 },
                 templateUrl : 'calc.html' ,
                 link        : function (scope , element , attrs) {

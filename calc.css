@@ -14,7 +14,7 @@
   margin-bottom: 7px;
 }
 
-.calcBody {
+.theme-light, .theme-dark {
   background: #c1c1c1;
   width: 18%;
   padding: 10px;
@@ -22,4 +22,13 @@
   border-radius: 12px;
   margin: 20px;
   padding: 20px 20px 20px 35px;
+  color: aliceblue;
+}
+
+.theme-light {
+  background: #c1c1c1;
+}
+
+.theme-dark {
+  background: #061a37;
 }
