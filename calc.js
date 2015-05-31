@@ -3,9 +3,9 @@
  */
 
     'use strict';
-    angular.module( 'app' , ['ngRoute' , 'ngSanitize'] ).controller( 'calcCtrl' , [
+    angular.module( 'app' , [] ).controller( 'calcCtrl' , [
             '$scope' , function ($scope) {
-                $scope.memory;
+                $scope.memory = "0";
                 $scope.addToMemory = function(btn) {
                     if($scope.memory == "0" || $scope.newNumber) {
                         $scope.memory = btn;
